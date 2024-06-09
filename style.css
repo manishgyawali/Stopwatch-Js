@@ -1,19 +1,104 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
-body{
+
+body {
     background-color: rgb(128, 244, 205);
+    font-family: "Montserrat", sans-serif;
 }
-.main{
+
+.main {
     /* display: flex; */
     justify-content: center;
-    height: 200px;
+    height: 800px;
     border: 1px solid black;
-    width: 500px;
+    width: 700px;
     margin: 100px;
+    align-items: center;
 }
-.time{
+
+.time {
     display: flex;
 }
 
+/* .allbuttons{
+   
+}
+.allbuttons .start{
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+} */
+
+.heading {
+    padding-left: 50px;
+
+}
+
+.time {
+    margin-top: 30px;
+    padding-left: 50px;
+
+}
+
+.allbuttons {
+    margin-top: 30px;
+    padding-left: 50px;
+}
+
+.hr {
+    margin-right: 10px;
+    font-size: 50px;
+}
+
+.hr span {
+    font-size: 30px;
+}
+
+.min {
+    margin-right: 10px;
+    font-size: 50px;
+}
+
+.min span {
+    font-size: 30px;
+}
+
+.sec {
+    margin-right: 10px;
+    font-size: 50px;
+}
+
+.sec span {
+    font-size: 30px;
+}
+
+.milisec {
+    margin-right: 10px;
+    font-size: 50px;
+}
+.start{
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+}
+.stop{
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+}
+.reset{
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+}
