@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(128, 244, 205);
+}
+.main{
+    /* display: flex; */
+    justify-content: center;
+    height: 200px;
+    border: 1px solid black;
+    width: 500px;
+    margin: 100px;
+}
+.time{
+    display: flex;
+}
+
