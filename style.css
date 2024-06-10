@@ -4,16 +4,15 @@
 }
 
 body {
-    background-color: rgb(128, 244, 205);
-    font-family: "Montserrat", sans-serif;
+    background-color: rgb(71, 255, 194);
+    font-family: "Josefin Sans", sans-serif;
 }
 
 .main {
     /* display: flex; */
     justify-content: center;
-    height: 800px;
+    height: 500px;
     border: 1px solid black;
-    width: 700px;
     margin: 100px;
     align-items: center;
 }
@@ -33,18 +32,37 @@ body {
 
 .heading {
     padding-left: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+
+}
+.heading h1{
+    font-size: 50px;
+    
 
 }
 
 .time {
     margin-top: 30px;
     padding-left: 50px;
+    background-color: rgb(219, 180, 180);
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
 
 }
 
 .allbuttons {
     margin-top: 30px;
-    padding-left: 50px;
+    display: flex;
+    background-color: rgb(219, 180, 180);
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+
 }
 
 .hr {
@@ -79,26 +97,29 @@ body {
     font-size: 50px;
 }
 .start{
-    padding: 8px 15px;
-    border-radius: 5px;
+    padding: 9px 20px;
+    border-radius: 10px;
     border: none;
     cursor: pointer;
     font-size: 15px;
     font-weight: bold;
+    background-color: rgb(117, 223, 117);
 }
 .stop{
-    padding: 8px 15px;
-    border-radius: 5px;
+    padding: 9px 20px;
+    border-radius: 10px;
     border: none;
     cursor: pointer;
     font-size: 15px;
     font-weight: bold;
+    background-color: rgb(238, 63, 63);
 }
 .reset{
-    padding: 8px 15px;
-    border-radius: 5px;
+    padding: 9px 20px;
+    border-radius: 10px;
     border: none;
     cursor: pointer;
     font-size: 15px;
     font-weight: bold;
+    background-color: rgb(81, 81, 249);
 }
