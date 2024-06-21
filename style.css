@@ -4,42 +4,35 @@
 }
 
 body {
-   
+
     font-family: "Josefin Sans", sans-serif;
     background-color: #ecf4ff;
 
 }
 
 .main {
-    /* display: flex; */
-    justify-content: center;
-    height: 500px;
+    height: 100%;
     border: 1px solid black;
-    margin: 50px;
-    align-items: center;
+    margin: 30px 200px;
     border-radius: 10px;
+    width: 800px;
 }
-.image{
+
+.image {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.image img{
+
+.image img {
     width: 45%;
-  
+
 }
+
 .time {
     display: flex;
 }
 
-/* .allbuttons{
-   
-}
-.allbuttons .start{
-    height: 50px;
-    width: 50px;
-    border-radius: 10px;
-} */
 
 .heading {
     padding-left: 50px;
@@ -49,14 +42,15 @@ body {
     margin-top: 20px;
 
 }
-.heading h1{
+
+.heading h1 {
     font-size: 47px;
     color: #3a56a3;
     word-spacing: 50px;
     letter-spacing: 5px;
 
-  
-    
+
+
 
 }
 
@@ -66,15 +60,15 @@ body {
     padding: 50px;
     align-items: center;
     justify-content: center;
-background-color: #f7ae3f;
-color: #f1f3f5;
+    background-color: #f7ae3f;
+    color: #f1f3f5;
 
 }
 
 .allbuttons {
-    margin-top: 30px;
+    margin-top: 1px;
     display: flex;
-    background-color: rgb(219, 180, 180);
+    background-color: #c0ddfa;
     padding: 20px;
     align-items: center;
     justify-content: center;
@@ -83,37 +77,40 @@ color: #f1f3f5;
 }
 
 .hr {
-    margin-right: 10px;
     font-size: 50px;
 }
 
 .hr span {
     font-size: 30px;
+    margin-right: 40px;
 }
 
 .min {
-    margin-right: 10px;
     font-size: 50px;
 }
 
 .min span {
     font-size: 30px;
+    margin-right: 40px;
+
 }
 
 .sec {
-    margin-right: 10px;
     font-size: 50px;
 }
 
 .sec span {
     font-size: 30px;
+    margin-right: 40px;
+
 }
 
 .milisec {
     margin-right: 10px;
     font-size: 50px;
 }
-.start{
+
+.start {
     padding: 9px 20px;
     border-radius: 10px;
     border: none;
@@ -121,8 +118,10 @@ color: #f1f3f5;
     font-size: 15px;
     font-weight: bold;
     background-color: rgb(117, 223, 117);
+    color: white;
 }
-.stop{
+
+.stop {
     padding: 9px 20px;
     border-radius: 10px;
     border: none;
@@ -130,13 +129,18 @@ color: #f1f3f5;
     font-size: 15px;
     font-weight: bold;
     background-color: rgb(238, 63, 63);
+    color: white;
+
 }
-.reset{
+
+.reset {
     padding: 9px 20px;
     border-radius: 10px;
     border: none;
     cursor: pointer;
     font-size: 15px;
     font-weight: bold;
-    background-color: rgb(81, 81, 249);
+    background-color: #4972b4;
+    color: white;
+
 }
