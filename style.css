@@ -6,7 +6,7 @@
 body {
 
     font-family: "Josefin Sans", sans-serif;
-    background-color: #ecf4ff;
+    background-color: #eaf3fb;
 
 }
 
@@ -14,6 +14,7 @@ body {
     height: 100%;
     border: 1px solid black;
     margin: 30px 200px;
+    
     border-radius: 10px;
     width: 800px;
 }
