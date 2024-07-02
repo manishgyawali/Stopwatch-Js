@@ -1,10 +1,9 @@
 # Digital Clock and Stopwatch
 
-A simple digital clock and stopwatch web application.
+A simple digital stopwatch web application.
 
 ## Features
 
-- **Digital Clock**: Displays the current time in hours, minutes, seconds, and milliseconds.
 - **Stopwatch**: Allows users to start, stop, and reset the stopwatch.
 
 ## Technologies Used
