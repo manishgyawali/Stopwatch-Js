@@ -21,7 +21,11 @@ A simple digital clock and stopwatch web application.
 
 ### Installation
 
-1. **Clone the repository:**
+ **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/digital-clock-stopwatch.git
+   git clone https://github.com/manishgyawali/Stopwatch-Js.git
+## Technologies Used
+- HTML: For structuring the web page.
+- CSS: For styling the web page.
+- JavaScript: For functionality of the digital clock and stopwatch.
