@@ -46,4 +46,5 @@ A simple digital clock and stopwatch web application.
 -Click the "Reset" button to reset the stopwatch to 00:00:00:00.
 
 ## Screenshots
+![Screenshot 2024-07-02 125708](https://github.com/manishgyawali/Stopwatch-Js/assets/104677087/9025a7cf-c59a-4841-a139-788ad5c221fc)
 
