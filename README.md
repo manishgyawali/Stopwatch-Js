@@ -1,4 +1,4 @@
-# Digital Clock and Stopwatch
+#Stopwatch
 
 A simple digital stopwatch web application.
 
